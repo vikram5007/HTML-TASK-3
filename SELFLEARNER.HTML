@@ -4,6 +4,20 @@
 <head>
 
     <style>
+        #bgimg {
+
+            background-image: url("5039684.jpg");
+            background-size: cover;
+            height: 1600px;
+            position: relative;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+
+        }
+
         div.houser {
             height: 1600px;
             margin: auto;
@@ -111,7 +125,7 @@
             left: 675px;
             width: 650px;
             background: rgb(2, 0, 36);
-            background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 19, 42, 1) 0%, rgba(105, 46, 25, 1) 3%, rgba(255, 85, 0, 1) 100%);
+            background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 19, 42, 1) 0%, rgba(0, 129, 255, 1) 100%);
             height: 500px;
         }
 
@@ -121,7 +135,7 @@
 
             position: relative;
             bottom: 500px;
-            background-color: rgb(255, 0, 0);
+            background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 19, 42, 1) 0%, rgba(0, 129, 255, 1) 100%);
             left: 15px;
             width: 650px;
             height: 500px;
@@ -132,7 +146,7 @@
             position: relative;
             bottom: 1000px;
             left: 675px;
-            background-color: rgb(15, 168, 214);
+            background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 19, 42, 1) 0%, rgba(0, 129, 255, 1) 100%);
             width: 650px;
             height: 500px;
         }
@@ -141,7 +155,11 @@
             position: absolute;
             margin-left: 225px;
             margin-top: 140px;
-            
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: transform;
+
 
         }
 
@@ -149,12 +167,72 @@
             position: absolute;
             margin-left: 225px;
             margin-top: 140px;
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: transform;
 
 
         }
 
+        #GFG {
+            position: absolute;
+            margin-left: 225px;
+            margin-top: 140px;
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: transform;
+
+
+        }
+
+
+        #HTML {
+            position: absolute;
+            margin-left: 225px;
+            margin-top: 140px;
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: transform;
+
+
+        }
+
+        #reg {
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: transform;
+        }
+
+
         #c:hover {
-            box-shadow: 0px 0px 150px rgb(0, 217, 255);
+            transform: scale(1.5);
+            transition: .5s ease;
+
+        }
+
+        #J:hover {
+            transform: scale(1.4);
+            transition: .5s ease;
+        }
+
+        #GFG:hover {
+
+            transform: scale(1.4);
+            transition: .5s ease;
+        }
+
+        #HTML:hover {
+
+            transform: scale(1.4);
+            transition: .5s ease;
+        }
+
+        #reg:hover {
+            transform: scale(1.2);
             transition: .5s ease;
         }
     </style>
@@ -165,7 +243,10 @@
 </head>
 
 <body>
+
+
     <div class="houser">
+
 
         <header>
             <div class="logo">
@@ -174,12 +255,14 @@
             <div class="NAV">
 
                 <ul class="horinav">
-
-                    <li>CONTACT</li>
+                    <a href="">
+                        <li>CONTACT</li>
+                    </a>
                     <li>SIGN UP/SIGN IN/LOG IN/LOG OUT</li>
                 </ul>
             </div>
         </header>
+
 
 
         <div id="grad1">
@@ -222,15 +305,19 @@
 
 
         <div id="ds">
+            <a href="https://www.geeksforgeeks.org/introduction-to-linear-data-structures/">
+                <img id="GFG" src="unnamed.png" height="200px" width="200px">
+
+
+            </a>
 
 
         </div>
 
         <div id="html">
-
-
-
-
+            <a href="https://www.w3schools.com/html/">
+                <img id="HTML" src="5847f5bdcef1014c0b5e489c.png" height="200px" width="200px">
+            </a>
 
         </div>
 
